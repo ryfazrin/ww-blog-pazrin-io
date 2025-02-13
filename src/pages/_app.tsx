@@ -49,7 +49,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         `}
       </Script>
       {/* Facebook Pixel */}
-      <Script id="facebook-pixel" type="text/fernflow" strategy="afterInteractive">
+      <Script
+        id="facebook-pixel"
+        type="text/fernflow"
+        strategy="afterInteractive"
+      >
         {`
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?

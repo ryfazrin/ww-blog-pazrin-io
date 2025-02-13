@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
                 logStackTraces: false,
                 logScriptExecution: true,
               };  
-            `
+            `,
             }}
           />
           <script async src="/~fernflow/debug/tool-web-worker.js" />
