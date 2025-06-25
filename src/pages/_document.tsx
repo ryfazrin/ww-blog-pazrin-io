@@ -38,7 +38,7 @@ export default class MyDocument extends Document {
           {/* Menambahkan script Twitter untuk embed widget */}
           <script
             async
-            type="text/fernflow"
+            type="text/toolwebworker"
             src="https://platform.twitter.com/widgets.js"
             charSet="utf-8"
           />

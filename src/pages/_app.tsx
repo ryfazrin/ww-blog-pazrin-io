@@ -28,7 +28,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Seo />
       {/* Google Tag Manager */}
-      <Script id="gtm" type="text/fernflow" strategy="afterInteractive">
+      <Script id="gtm" type="text/toolwebworker" strategy="afterInteractive">
         {`
           (function (w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -51,7 +51,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       {/* Facebook Pixel */}
       <Script
         id="facebook-pixel"
-        type="text/fernflow"
+        type="text/toolwebworker"
         strategy="afterInteractive"
       >
         {`
